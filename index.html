@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamingBoost - Jasa Followers Sosmed Premium</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #00ff00;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            color: #00ff00;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        
+        .product-card {
+            background: rgba(20, 20, 20, 0.8);
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 255, 0, 0.3);
+            border-color: #00ff00;
+        }
+        
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #00ff00, #0066ff);
+        }
+        
+        .platform {
+            font-size: 1.5rem;
+            color: #00ff00;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .platform i {
+            margin-right: 10px;
+        }
+        
+        .price {
+            font-size: 1.8rem;
+            color: #fff;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+        
+        .price span {
+            font-size: 1rem;
+            color: #aaa;
+        }
+        
+        .features {
+            list-style-type: none;
+            margin: 20px 0;
+        }
+        
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #333;
+            color: #ddd;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .features li::before {
+            content: '✓';
+            color: #00ff00;
+            margin-right: 10px;
+        }
+        
+        .order-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(45deg, #00ff00, #0066ff);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .order-btn:hover {
+            background: linear-gradient(45deg, #0066ff, #00ff00);
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #333;
+            color: #aaa;
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 100;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        @media (max-width: 768px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hans<span style="color: #0066ff;"> Store</span></h1>
+            <p class="tagline"style="color: #ffff00;">Selamat Datang Di Web Kami Tingkatkan Sosmed Anda Ke Bidang Yg Lebih Tinggi</p>
+        </header>
+        
+        <div class="products">
+            <!-- Instagram -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fab fa-instagram"></i> Instagram
+                </div>
+                <div class="price">
+                    Rp5.000 <span>/ 100 followers</span>
+                </div>
+                <ul class="features">
+                    <li>Followers Global</li>
+                    <li>Proses 5-30 menit</li>
+                    <li>Garansi 30 hari</li>
+                    <li>Amanah 100%</li>
+                </ul>
+                <a href="https://wa.me/6281396708074?text=Saya%20mau%20pesan%20Instagram%20100%20followers" class="order-btn">Pesan Sekarang</a>
+            </div>
+            
+            <!-- TikTok -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fab fa-tiktok"></i> TikTok
+                </div>
+                <div class="price">
+                    Rp5.000 <span>/ 100 followers</span>
+                </div>
+                <ul class="features">
+                    <li>Followers Berkualitas</li>
+                    <li>Proses Instant</li>
+                    <li>Garansi 14 hari</li>
+                    <li>Aman & Terpercaya</li>
+                </ul>
+                <a href="https://wa.me/6281396708074?text=Saya%20mau%20pesan%20TikTok%20100%20followers" class="order-btn">Pesan Sekarang</a>
+            </div>
+            
+            <!-- YouTube -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fab fa-youtube"></i> YouTube
+                </div>
+                <div class="price">
+                    Rp20.000 <span>/ 100 subscribers</span>
+                </div>
+                <ul class="features">
+                    <li>Subscriber Real</li>
+                    <li>Proses Bertahap</li>
+                    <li>Garansi 30 hari</li>
+                    <li>Tidak Drop</li>
+                </ul>
+                <a href="https://wa.me/6281396708074?text=Saya%20mau%20pesan%20YouTube%20100%20subscribers" class="order-btn">Pesan Sekarang</a>
+            </div>
+            
+            <!-- Like Tiktok -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fab fa-tiktok"></i> Tiktok Like
+                </div>
+                <div class="price">
+                    Rp20.000 <span>/ 10000 Likes</span>
+                </div>
+                <ul class="features">
+                    <li>Aman %100</li>
+                    <li>Proses Cepat</li>
+                    <li>Garansi 30 hari</li>
+                    <li>Tanpa Bot</li>
+                </ul>
+                <a href="https://wa.me/6281396708074?text=Saya%20mau%20pesan%20Like%2010000%20Tiktok" class="order-btn">Pesan Sekarang</a>
+            </div>
+            
+            <!-- Like Instagram -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fab fa-instagram"></i> Intagram Like
+                </div>
+                <div class="price">
+                    Rp20.000 <span>/ 10000 likes</span>
+                </div>
+                <ul class="features">
+                    <li>Likes Real</li>
+                    <li>Proses Cepat</li>
+                    <li>Garansi 30 hari</li>
+                    <li>No Drop</li>
+                </ul>
+                <a href="https://wa.me/6281251459229?text=Saya%20mau%20pesan%20Instagram%2010000%20likes" class="order-btn">Pesan Sekarang</a>
+            </div>
+            
+            <!-- Paket Kombo -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fas fa-star"></i> Paket Kombo Instagram
+                </div>
+                <div class="price">
+                    Rp30.000 <span>/ Likes Dan Views</span>
+                </div>
+                <ul class="features">
+                    <li>Instagram</li>
+                    <li>Hemat sampai 10k</li>
+                    <li>Proses lebih cepat</li>
+                    <li>Garansi 30 hari</li>
+                </ul>
+                <a href="https://wa.me/6281234567890?text=Saya%20mau%20pesan%20Paket%20Kombo%20500%20Likes%20Dan%Views%20Pembayaran?" class="order-btn">Pesan Sekarang</a>
+            </div>
+            <!-- Paket Kombo -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fas fa-star"></i> Paket Kombo Like Dan Views Tiktok
+                </div>
+                <div class="price">
+                    Rp30.000 <span>/ 10000 Views dan Likes</span>
+                </div>
+                <ul class="features">
+                    <li>TikTok Saja</li>
+                    <li>Hemat sampai 10k</li>
+                    <li>Proses lebih cepat</li>
+                    <li>Garansi 30 hari</li>
+                </ul>
+                <a href="https://wa.me/6281234567890?text=Saya%20mau%20pesan%20Paket%20Kombo%20500%20Like%20dan%views%20Pembayaran?" class="order-btn">Pesan Sekarang</a>
+            </div>
+            
+            <!-- Paket Kombo  -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fas fa-star"></i> Paket Kombo Followers
+                </div>
+                <div class="price">
+                    Rp30.000 <span>/ 500 followers instagram dan tiktok</span>
+                </div>
+                <ul class="features">
+                    <li>HEMAT 10K</li>
+                    <li>Proses Cepat</li>
+                    <li>Garansi 30 hari</li>
+                    <li>FLOWERS GLOBAL</li>
+                </ul>
+                <a href="https://wa.me/6281396708074?text=Saya%20mau%20pesan%20Paket Kombo%20500%20followers%20Pembayaran%20dengan%20Apa?" class="order-btn">Pesan Sekarang</a>
+           </div>
+            
+            <!-- Paket Kombo  -->
+            <div class="product-card">
+                <div class="platform">
+                    <i class="fas fa-star"></i> Tanya
+                </div>
+                <div class="price">
+                    Tanya Tentang harga dan order</span>
+                </div>
+                <ul class="features">
+                    <li>Tanya Tentang harga</li>
+                    <li>tanya kapan sampai</li>
+                    <li>Garansi 30 hari</li>
+                </ul>
+                <a href="https://wa.me/6281396708074?text=Bg%20Boleh%20nanyak%20gk?" class="order-btn">Tanya Sekarang</a>
+            </div>
+        </div>
+    </div>
+    
+    <a href="https://wa.me/6281251459229" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <footer>
+        <p>&copy; 2023 GamingBoost. All Rights Reserved.</p>
+        <p>Hubungi kami: support@gamingboost.id | +62 812-5145-9229</p>
+    </footer>
+</body>
+</html>
